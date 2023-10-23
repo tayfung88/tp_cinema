@@ -1,0 +1,48 @@
+@import "typo";
+@import "couleurs";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-Roboto;
+}
+
+h1 {
+    font-family: $font-Incosolata;
+}
+
+nav {
+    background-color: $colorDark !important;
+
+    a {
+        color: $colorYellowOne !important; 
+    }
+
+    a:hover {
+        color: $colorBlue !important;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    div {
+        background-color: $colorDark;
+        color: $colorYellowOne;
+    }
+
+    a {
+        color: $colorBlue;
+    }
+
+    a:hover {
+        color: $colorYellowOne;
+        text-decoration: overline;
+    }
+}

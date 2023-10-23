@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-family: "Inconsolata", monospace;
+}
+
+nav {
+  background-color: #2F3640 !important;
+}
+nav a {
+  color: #F2C84B !important;
+}
+nav a:hover {
+  color: #7587BF !important;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer div {
+  background-color: #2F3640;
+  color: #F2C84B;
+}
+footer a {
+  color: #7587BF;
+}
+footer a:hover {
+  color: #F2C84B;
+  text-decoration: overline;
+}/*# sourceMappingURL=all.css.map */

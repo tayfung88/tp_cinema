@@ -1,0 +1,15 @@
+@import "typo";
+@import "couleurs";
+
+
+
+@media screen and (min-width : 845px) {
+    main {
+        
+        section { 
+            img {
+                height: 30rem;
+            }
+        }
+    }
+}
